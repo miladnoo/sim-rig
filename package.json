@@ -1,0 +1,53 @@
+{
+  "name": "classic-garage",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~55.0.11",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "8.6.0",
+    "@react-native-google-signin/google-signin": "^16.1.2",
+    "expo": "~55.0.24",
+    "expo-apple-authentication": "~55.0.17",
+    "expo-build-properties": "~55.0.18",
+    "expo-camera": "~55.0.18",
+    "expo-constants": "~55.0.17",
+    "expo-crypto": "~55.0.19",
+    "expo-dev-client": "^55.0.35",
+    "expo-document-picker": "~55.0.13",
+    "expo-file-system": "~55.0.20",
+    "expo-image-picker": "~55.0.20",
+    "expo-linking": "~55.0.17",
+    "expo-print": "~55.0.15",
+    "expo-router": "~55.0.14",
+    "expo-secure-store": "~55.0.14",
+    "expo-sharing": "~55.0.19",
+    "expo-sqlite": "~55.0.16",
+    "expo-status-bar": "~55.0.6",
+    "expo-symbols": "~55.0.9",
+    "expo-system-ui": "~55.0.18",
+    "firebase": "^12.13.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-purchases": "^10.1.1",
+    "react-native-purchases-ui": "^10.1.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "^0.21.0",
+    "react-native-zip-archive": "^9.5.1",
+    "typescript": "~5.9.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.2.10"
+  }
+}
