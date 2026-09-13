@@ -49,11 +49,5 @@
   "private": true,
   "devDependencies": {
     "@types/react": "~19.2.10"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@firebase/util",
-      "protobufjs"
-    ]
   }
 }
